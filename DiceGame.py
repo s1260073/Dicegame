@@ -19,9 +19,9 @@ def play():
     print("Die 2:"+str(fv2))
     print("Total value:"+str(fv1+fv2))
     if(fv1+fv2>=7):
-        print("You won")
+        print(name+" won")
     else:
-        print("You lost")
+        print(name+" lost")
     
 
 play()
