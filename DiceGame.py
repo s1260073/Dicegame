@@ -13,12 +13,15 @@ def play():
     print("Rolling the dice... ")
     die1=DiceGame()
     die2=DiceGame()
+    die3=DiceGame()
     fv1=die1.getFaceValue()
     fv2=die2.getFaceValue()
+    fv3=die3.getFaceValue()
     print("Die 1:"+str(fv1))
     print("Die 2:"+str(fv2))
-    print("Total value:"+str(fv1+fv2))
-    if(fv1+fv2>=7):
+    print("Die 3:"+str(fv3))
+    print("Total value:"+str(fv1+fv2+fv3))
+    if(fv1+fv2+fv3>=7):
         print(name+" won")
     else:
         print(name+" lost")
