@@ -15,6 +15,10 @@ def play():
     print("Die 1:"+str(fv1))
     print("Die 2:"+str(fv2))
     print("Total value:"+str(fv1+fv2))
+    if(fv1+fv2>=7):
+        print("You won")
+    else:
+        print("You lost")
     
 
 play()
