@@ -7,6 +7,9 @@ class DiceGame():
     def getFaceValue(self):
         return self.FaceValue
 def play():
+    print("what is your name?")
+    name=input()
+    print("Hello, "+name+"!")
     print("Rolling the dice... ")
     die1=DiceGame()
     die2=DiceGame()
